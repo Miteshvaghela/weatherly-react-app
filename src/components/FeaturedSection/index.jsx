@@ -1,5 +1,4 @@
 import React from 'react'
-
 const index = () => {
   return (
         <section class="bg-white dark:bg-gray-900">
