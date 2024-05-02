@@ -4,10 +4,10 @@ import Hero from './components/Hero';
 import Footer from './components/Footer';
 import FeaturedSection from './components/FeaturedSection';
 import Newletter from './components/Newsletter';
+import Faq from './components/Faq';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="container mx-auto scroll-smooth">
@@ -15,6 +15,7 @@ function App() {
       <FeaturedSection />
       <Hero />
       <Newletter />
+      <Faq />
       <Footer copyright="All rights reserved by Funtechstic Services"/>
     </div>
     
