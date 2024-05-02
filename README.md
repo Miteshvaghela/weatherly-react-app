@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -11,4 +10,3 @@ Currently, two official plugins are available:
 # Weatherly-react-app
 Developed with vite+react+tailwind
 Weather api : https://openweathermap.org
->>>>>>> 43c85a6d2fe177e3043a0b1527ea6a283d0f26fd
