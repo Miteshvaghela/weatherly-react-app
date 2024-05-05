@@ -18,7 +18,6 @@ function App() {
       <Faq />
       <Footer copyright="All rights reserved by Funtechstic Services"/>
     </div>
-    
   )
 }
 
