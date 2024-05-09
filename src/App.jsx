@@ -7,8 +7,7 @@ import Newletter from './components/Newsletter';
 import Faq from './components/Faq';
 import './App.css'
 
-function App() {
-
+function App() { 
   return (
     <div className="container mx-auto scroll-smooth">
       <Header title="React Weather App" logo="Weatherly"/>

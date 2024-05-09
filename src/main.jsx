@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import About from './pages/About'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import './index.css';
 import ErrorPage from './pages/Errors';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,12 @@ const router = createBrowserRouter([
       {
         path : '/about',
         element : <About />
-      }
+      },
+      {
+        path : '/contact',
+        element : <Contact />
+      },
+      
     ]
   } 
 ])
