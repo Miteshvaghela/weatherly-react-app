@@ -2,7 +2,7 @@ import React from 'react'
 const index = () => {
   return (
         <section className="bg-white dark:bg-gray-900">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div className="px-4 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
             <div className="max-w-screen:sm max-w-screen:lg max-w-screen:md mb-8 lg:mb-16">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center ">Weatherly is designed for businesses like yours</h2>
                 <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center ">Introducing our Weather App, your ultimate weather companion! With real-time updates and accurate forecasts, it’s more than just an app - it’s your personal weather guide. Whether you’re planning your day or your next vacation, our app provides detailed weather conditions, from temperature to humidity, wind speed to UV index.</p>

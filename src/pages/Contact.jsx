@@ -1,7 +1,8 @@
 import React from 'react'
-
+import Newletter from '../components/Newsletter';
 const Contact = () => {
   return (
+    <>
     <section className="bg-white dark:bg-gray-900 min-h-10">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
            
@@ -17,8 +18,11 @@ const Contact = () => {
                   Watch video
               </a>  
           </div> 
-      </div>
-    </section>
+      </div>      
+    </section>    
+    <Newletter />
+    
+    </>
   )
 }
 
