@@ -7,6 +7,7 @@ import App from './App';
 import Contact from './pages/Contact';
 import About from './pages/About'; 
 import Services from './pages/Services'; 
+import Git from './pages/Git'; 
 import ErrorPage from './pages/ErrorPage';
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path : 'services',
         element : <Services />
+      },
+      {
+        path : 'git',
+        element : <Git />
       }
     ]
   } 
