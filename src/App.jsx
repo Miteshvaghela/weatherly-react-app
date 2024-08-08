@@ -1,3 +1,4 @@
+import React from 'react';
 import FeaturedSection from './components/FeaturedSection';
 import Hero1 from './components/Hero1';
 import Hero from './components/Hero';
